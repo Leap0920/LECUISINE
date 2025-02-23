@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>SIGN UP PAGE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/logoo.png" type="image/svg+xml">
+    <style>
+       body {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Images/browse-b.jpg");
+        height: 100vh; 
+        background-size: cover;
+        position: relative;
+        background-blend-mode: multiply;   
+        padding: 0;  
+        display: flex; 
+        flex-direction: column;
+    }
+    .signup{
+      width:350px;
+      height:670px;
+      margin:auto;
+      background-color:black;
+      border-radius:5px;
+      margin-bottom: 10%;
+      margin-top: 5%;
+      color: white;
+      
+    }
+    .signup h1{
+      text-align:center;
+      padding-top:10px;
+    }
+    .form{
+      width:300px;
+      margin-left:15px;
+    }
+    .form label{
+      display:flex;
+      margin-top:15px;
+      font-size:20px;
+    }
+    .form input{
+      width:315px;
+      height:25px;
+      padding:5px;
+      border:none;
+      border:1px solid grey;
+      border-radius:5px;
+    }
+    .rb{
+      width:320px;
+      height:30px;
+      margin-top:15px;
+      border:none;
+      background-color:grey;
+      color:black;
+      font-size:20px;
+    }
+    .rb:hover{
+      color:rgb(255, 255, 255);
+    }
+    p{
+      text-align:center;
+      padding-top:20px;
+      font-size:15px;
+    }
+
+    </style>
+</head>
+<body>
+  <header>
+    <div class="wrapper">
+        <div class="logo">
+            <a href="index.html"> <img src="Images/logoo.png" class="logo"> </a>
+        </div>
+        <ul class="nav-area">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="browse.html">Browse</a></li>
+            <li><a href="chefs.html">Chefs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </header>
+
+
+  <body>
+    <div class="signup">
+      <h1>CREATE YOUR CHEF'S ACCOUNT HERE!</h1>
+      <form class="form" action="registration.php" method="post">
+        <label>First Name:</label>
+        <input type="text" placeholder="Lee" id="firstName" name="firstName" required>
+        <label>Last Name:</label>
+        <input type="text" placeholder="Cuishine" id="lastName" name="lastName" required>
+        <label>Email Address:</label>
+        <input type="email" placeholder="LeeCuisine2023@gmail.com" id="email" name="email" required>
+        <label>Password:</label>
+        <input type="password" placeholder="Enter Password" id="password" name="password" required>
+        <button type="submit" class="rb">Register</button>
+      </form>
+      <p>Thank you for creating your Chef's account Enjoy!</p>
+    </div>
+    
+    
+    
+      <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="qcu" src="Images/qcu.png">
+          </div>
+          <div class="col">
+            <h3>Address</h3>
+            <p>Batasan Rd, Quezon City, Metro Manila</p>
+            <p>Phone: (02) 8806-3049</p>
+            <p>@ 2023 Quezon City University</p>
+          </div>
+          <div class="col">
+            <h3>OpenHours</h3>
+            <p>Monday - Friday: 8:00 am - 5:00 pm</p>
+            <p>Saturday - Sunday: Closed</p>  
+          </div>
+          <div class="col">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+              <li><a href="https://www.facebook.com/zuck"><img src="Images/facebook.jpg" alt="Facebook"></a></li>
+              <li><a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="Images/twitter.png" alt="Twitter"></a></li>
+              <li><a href="https://www.instagram.com/mina_sr_my/?hl=en"><img src="Images/instagram.png" alt="Instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>

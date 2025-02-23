@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>PUTO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/logoo.png" type="image/svg+xml">
+    <style>
+       /*NAv bar*/
+       body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Images/browse-b.jpg");
+  height: 100vh; 
+  background-size: cover;
+  position: relative;
+  background-blend-mode: multiply;   
+  padding: 0;  
+  display: flex; 
+  flex-direction: column;
+}
+
+
+
+.recipeb {
+    text-align: center;
+    display: block;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+    background-color: rgba(39, 38, 38, 0.5); 
+    width: 1100px;
+    border-radius: 20px;
+    
+}
+.bodys h1{
+    font-size: 50px;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 30px;
+    }
+    .section1 {
+    display: flex;
+    justify-content: center; 
+    text-align: justify;
+    margin: auto; 
+}
+
+.section1 img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.section1 p {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+.stars {
+    display: flex;
+    direction: rtl; 
+    font-size: 3em;
+    color: rgb(255, 230, 0);
+    position: absolute;
+    margin-left: -500px;
+    margin-top: 280px;
+}
+
+
+.stars input[type="radio"] {
+    display: none;
+}
+
+.stars label:before {
+    content: "☆";
+    cursor: pointer;
+}
+
+.stars input[type="radio"]:checked ~ label:before {
+    content: "★";
+}
+
+.section2 {
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    align-items: start; 
+}
+
+.section2 p {
+    margin-bottom: 30px; 
+    font-size: 15px;
+}
+.section2 h1{
+    font-size: 25px;
+}
+
+.direction {
+    text-align: justify;
+    margin-left: 110px;
+    margin-right: 150px;
+    margin-bottom: 90px;
+    
+}
+.recipe {
+    text-align: justify;
+    margin-right: 100px;
+}
+
+
+    </style>
+</head>
+<body>
+  <header>
+    <div class="wrapper">
+        <div class="logo">
+            <a href="index.html"> <img src="Images/logoo.png" class="logo"> </a>
+        </div>
+        <ul class="nav-area">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="browse.html">Browse</a></li>
+            <li><a href="chefs.html">Chefs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </header>
+    
+
+   <div class="recipeb">
+        <div class="bodys">
+            <h1>CHICKEN MAMI</h1>
+            <div class="section1"> 
+                <img src="Images/Food-Images/Chicken-Mami.jpg">
+                <p>Chicken Mami is a popular Filipino dish that is essentially a type of chicken noodle soup. It’s known for its flavorful broth, fresh egg noodles, and tender pieces of chicken123. The soup base is typically made from chicken bones that are sautéed and simmered for hours with carrots, celery, and other aromatics1. The dish is often garnished with vegetables such as napa cabbage, julienned carrots, and topped with hard-boiled eggs123. Additional flavor is added with the use of fish sauce and calamansi, a type of citrus fruit native to the Philippines123. Chicken Mami is considered a comfort food and is commonly enjoyed during colder seasons123. It can be served as a main course or a hearty snack123. The dish is versatile and can be customized with various toppings according to personal preference123. It’s not only delicious but also provides warmth and nourishment.</p>
+                <div class="etc">
+                    <div class="stars">
+                        <input type="radio" name="star" id="star1">
+                        <label for="star1"></label>
+                        <input type="radio" name="star" id="star2">
+                        <label for="star2"></label>
+                        <input type="radio" name="star" id="star3">
+                        <label for="star3"></label>
+                        <input type="radio" name="star" id="star4">
+                        <label for="star4"></label>
+                        <input type="radio" name="star" id="star5">
+                        <label for="star5"></label>
+                    </div>
+            </div>
+            
+            </div>
+
+
+            <div class="section2">
+                <div class="direction">
+                <h1>DIRECTIONS</h1>
+                <p>1. Combine chicken broth and water in a cooking pot. Let boil[^1^][1].</p>
+                <p>2. Add salt and chicken breasts. Cover and boil between low to medium heat for 30 to 35 minutes[^1^][1].</p>
+                <p>3. Remove the chicken from the pot. Let it cool down. Shred the meat from the bone. Set aside[^1^][1].</p>
+                <p>4. Save the broth used for boiling the chicken[^1^][1].</p>
+                <p>5. Slice the carrot and Napa cabbage[^1^][1].</p>
+                <p>6. Boil the egg noodles for 3 minutes and drain the water[^1^][1].</p>
+                <p>7. Divide noodles equally in bowls. Add chicken meat, julienned carrots, shredded napa cabbage, and hard-boiled egg[^1^][1].</p>
+                <p>8. Pour hot broth. Garnish with fried garlic bits and chopped scallions[^1^][1]
+            </div>
+            <div class="recipe">
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <li><P>1 lb. <a href="https://en.wikipedia.org/wiki/Chicken">Chicken Breasts</a>, bone-in</P></li>
+                    <li><P>1 piece <a href="https://en.wikipedia.org/wiki/Carrot">Carrot</a>, peeled</P></li>
+                    <li><P>½ piece <a href="https://en.wikipedia.org/wiki/Napa_cabbage">Napa Cabbage</a></P></li>
+                    <li><P>1 bunch <a href="https://en.wikipedia.org/wiki/Scallion">Scallions</a></P></li>
+                    <li><P>1 lb. <a href="https://en.wikipedia.org/wiki/Egg_noodle">Egg Noodles</a>, fresh</P></li>
+                    <li><P>¼ cup <a href="https://en.wikipedia.org/wiki/Garlic">Toasted Garlic</a></P></li>
+                    <li><P>4 pieces <a href="https://en.wikipedia.org/wiki/Boiled_egg">Hard Boiled Egg</a>, sliced</P></li>
+                    <li><P>4 cups <a href="https://en.wikipedia.org/wiki/Chicken_soup">Chicken Broth</a></P></li>
+                    <li><P>4 cups <a href="https://en.wikipedia.org/wiki/Water">Water</a></P></li>
+                    <li><P>2 teaspoons <a href="https://en.wikipedia.org/wiki/Salt">Salt</a></P></li>
+                </ul>
+            </div>
+            </div>
+        
+
+
+            <div class ="viewmore-div">
+          <div class="view-more">
+              <a href="browse.html"><p>View More</p></a>  
+          </div>
+    </div>
+
+
+            
+        </div>
+   </div>
+
+   
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="qcu" src="Images/qcu.png">
+          </div>
+          <div class="col">
+            <h3>Address</h3>
+            <p>Batasan Rd, Quezon City, Metro Manila</p>
+            <p>Phone: (02) 8806-3049</p>
+            <p>@ 2023 Quezon City University</p>
+          </div>
+          <div class="col">
+            <h3>OpenHours</h3>
+            <p>Monday - Friday: 8:00 am - 5:00 pm</p>
+            <p>Saturday - Sunday: Closed</p>  
+          </div>
+          <div class="col">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+              <li><a href="https://www.facebook.com/zuck"><img src="Images/facebook.jpg" alt="Facebook"></a></li>
+              <li><a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="Images/twitter.png" alt="Twitter"></a></li>
+              <li><a href="https://www.instagram.com/mina_sr_my/?hl=en"><img src="Images/instagram.png" alt="Instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>

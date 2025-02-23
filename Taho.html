@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>TAHO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/logoo.png" type="image/svg+xml">
+    <style>
+       /*NAv bar*/ /*pacheck kung okay na mga perd ----zaitello*/
+       body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Images/browse-b.jpg");
+  height: 100vh; 
+  background-size: cover;
+  position: relative;
+  background-blend-mode: multiply;   
+  padding: 0;  
+  display: flex; 
+  flex-direction: column;
+}
+
+
+.recipeb {
+    text-align: center;
+    display: block;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+    background-color: rgba(39, 38, 38, 0.5); 
+    width: 1100px;
+    border-radius: 20px;
+    
+}
+.bodys h1{
+    font-size: 50px;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 30px;
+    }
+    .section1 {
+    display: flex;
+    justify-content: center; 
+    text-align: justify;
+    margin: auto; 
+}
+
+.section1 img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.section1 p {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+.stars {
+    display: flex;
+    direction: rtl; 
+    font-size: 3em;
+    color: rgb(255, 230, 0);
+    position: absolute;
+    margin-left: -500px;
+    margin-top: 280px;
+}
+
+
+.stars input[type="radio"] {
+    display: none;
+}
+
+.stars label:before {
+    content: "☆";
+    cursor: pointer;
+}
+
+.stars input[type="radio"]:checked ~ label:before {
+    content: "★";
+}
+
+.section2 {
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    align-items: start; 
+}
+
+.section2 p {
+    margin-bottom: 30px; 
+    font-size: 15px;
+}
+.section2 h1{
+    font-size: 25px;
+}
+
+.direction {
+    text-align: justify;
+    margin-left: 110px;
+    margin-right: 150px;
+    margin-bottom: 90px;
+    
+}
+.recipe{
+    text-align: justify;
+    margin-right: 150px;
+    
+
+}
+
+    </style>
+</head>
+<body>
+  <header>
+    <div class="wrapper">
+        <div class="logo">
+            <a href="index.html"> <img src="Images/logoo.png" class="logo"> </a>
+        </div>
+        <ul class="nav-area">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="browse.html">Browse</a></li>
+            <li><a href="chefs.html">Chefs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </header>
+    
+
+   <div class="recipeb">
+        <div class="bodys">
+            <h1>TAHO</h1>
+            <div class="section1"> 
+                <img src="Images/Food-Images/taho.jpg">
+                <p>Taho is a popular and delicious Filipino street food or snack that consists of sweet arnibal (caramelized sugar), soft and silky tofu, and sago pearls (similar to tapioca pearls). It's often sold by street vendors in the morning, calling out "Taho!" as they carry large containers strapped to a pole across their shoulders. Taho is typically served warm and is enjoyed by people of all ages.</p>
+                <div class="etc">
+                    <div class="stars">
+                        <input type="radio" name="star" id="star1">
+                        <label for="star1"></label>
+                        <input type="radio" name="star" id="star2">
+                        <label for="star2"></label>
+                        <input type="radio" name="star" id="star3">
+                        <label for="star3"></label>
+                        <input type="radio" name="star" id="star4">
+                        <label for="star4"></label>
+                        <input type="radio" name="star" id="star5">
+                        <label for="star5"></label>
+                    </div>
+            </div>
+            
+            </div>
+
+
+            <div class="section2">
+                <div class="direction">
+                <h1>DIRECTIONS</h1>
+                <p>1. Boil water in a pot. Add the sago pearls and cook according to the package instructions or until they become soft and translucent.<br/> Once cooked, drain and rinse the sago pearls under cold water to prevent sticking. Set aside.</p>
+                <p>2. In a separate saucepan, combine brown sugar and water.<br/> Heat over medium heat, stirring continuously until the sugar dissolves and the mixture thickens into a syrup. <br/><I>Optional: Add vanilla extract for flavor.</I> Set aside to cool.</p>
+                <p>3. Place a spoonful of cooked sago pearls into serving cups or bowls.<br/> Add cubes of soft tofu on top of the sago pearls.</p>
+                <p>4. Pour the prepared arnibal syrup over the tofu and sago pearls, allowing it to coat the entire mixture.</p>
+                <p>5. Taho is traditionally enjoyed warm, so serve it immediately after assembling.<br/> Use a spoon to mix the components before eating, ensuring each bite has a balance of tofu, sago pearls, and sweet arnibal.</p>
+            </div>
+            <div class="recipe">
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <li><P>1 pack (about 12 ounces) <I>soft or silken</I> <a href="https://en.wikipedia.org/wiki/Tofu">Tofu, </a>cut into small cubes</P></li>
+                    <li><P>1 cup <a href="https://en.wikipedia.org/wiki/Brown_sugar">Brown Sugar</a></P></li>
+                    <li><P>1 cup small <a href="https://en.wikipedia.org/wiki/Sago">Sago Pearls</a></P></li>
+                    <li><P>1 cup of <a href="https://en.wikipedia.org/wiki/Water">Water</a></P></li>
+                    <li><P>1/2 teaspoon <a href="https://en.wikipedia.org/wiki/Vanilla_extract">Vanilla Extract</a></P></li>
+                    </ul>                    
+            </div>
+            </div>
+        
+
+
+            <div class ="viewmore-div">
+          <div class="view-more">
+              <a href="browse.html"><p>View More</p></a>  
+          </div>
+    </div>
+
+
+            
+        </div>
+   </div>
+
+   
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="qcu" src="Images/qcu.png">
+          </div>
+          <div class="col">
+            <h3>Address</h3>
+            <p>Batasan Rd, Quezon City, Metro Manila</p>
+            <p>Phone: (02) 8806-3049</p>
+            <p>@ 2023 Quezon City University</p>
+          </div>
+          <div class="col">
+            <h3>OpenHours</h3>
+            <p>Monday - Friday: 8:00 am - 5:00 pm</p>
+            <p>Saturday - Sunday: Closed</p>  
+          </div>
+          <div class="col">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+              <li><a href="https://www.facebook.com/zuck"><img src="Images/facebook.jpg" alt="Facebook"></a></li>
+              <li><a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="Images/twitter.png" alt="Twitter"></a></li>
+              <li><a href="https://www.instagram.com/mina_sr_my/?hl=en"><img src="Images/instagram.png" alt="Instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>

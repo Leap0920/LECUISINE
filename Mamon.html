@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>MAMON</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/logoo.png" type="image/svg+xml">
+    <style>
+       /*NAv bar*/ 
+       body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Images/browse-b.jpg");
+  height: 100vh; 
+  background-size: cover;
+  position: relative;
+  background-blend-mode: multiply;   
+  padding: 0;  
+  display: flex; 
+  flex-direction: column;
+}
+
+
+.recipeb {
+    text-align: center;
+    display: block;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+    background-color: rgba(39, 38, 38, 0.5); 
+    width: 1100px;
+    border-radius: 20px;
+    
+}
+.bodys h1{
+    font-size: 50px;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 30px;
+    }
+    .section1 {
+    display: flex;
+    justify-content: center; 
+    text-align: justify;
+    margin: auto; 
+}
+
+.section1 img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.section1 p {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+.stars {
+    display: flex;
+    direction: rtl; 
+    font-size: 3em;
+    color: rgb(255, 230, 0);
+    position: absolute;
+    margin-left: -500px;
+    margin-top: 280px;
+}
+
+
+.stars input[type="radio"] {
+    display: none;
+}
+
+.stars label:before {
+    content: "☆";
+    cursor: pointer;
+}
+
+.stars input[type="radio"]:checked ~ label:before {
+    content: "★";
+}
+
+.section2 {
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    align-items: start; 
+}
+
+.section2 p {
+    margin-bottom: 30px; 
+    font-size: 15px;
+}
+.section2 h1{
+    font-size: 25px;
+}
+
+.direction {
+    text-align: justify;
+    margin-left: 110px;
+    margin-right: 150px;
+    margin-bottom: 90px;
+    
+}
+.recipe{
+    text-align: justify;
+    margin-right: 150px;
+    
+
+}
+
+    </style>
+</head>
+<body>
+  <header>
+    <div class="wrapper">
+        <div class="logo">
+            <a href="index.html"> <img src="Images/logoo.png" class="logo"> </a>
+        </div>
+        <ul class="nav-area">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="browse.html">Browse</a></li>
+            <li><a href="chefs.html">Chefs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </header>
+    
+
+   <div class="recipeb">
+        <div class="bodys">
+            <h1>MAMON</h1>
+            <div class="section1"> 
+                <img src="Images/Food-Images/mamon.jpg">
+                <p>Mamon is a popular sponge cake in the Philippines and is considered to be among the top 10 pastries in the country. Unlike other sponge cakes, this amazing creation is individually packaged with serving sizes usually good for just one person. Filipino Yellow Sponge Cake is also another term used to refer to it.</p>
+                <div class="etc">
+                    <div class="stars">
+                        <input type="radio" name="star" id="star1">
+                        <label for="star1"></label>
+                        <input type="radio" name="star" id="star2">
+                        <label for="star2"></label>
+                        <input type="radio" name="star" id="star3">
+                        <label for="star3"></label>
+                        <input type="radio" name="star" id="star4">
+                        <label for="star4"></label>
+                        <input type="radio" name="star" id="star5">
+                        <label for="star5"></label>
+                    </div>
+            </div>
+            
+            </div>
+
+
+            <div class="section2">
+                <div class="direction">
+                <h1>DIRECTIONS</h1>
+                <p>1. Combine cake flour and baking powder then mix well. Set aside.</p>
+                <p>2. Combine egg whites and cream of tartar then beat until the mixture becomes somewhat fluffy.</p>
+                <p>3. Gradually add sugar then continue beating until the texture becomes fluffier. </p>
+                <p>4. Use high speed for this process; this should take around 4 to 8 minutes.
+                    Add lemon juice and egg yolks then mix again.</p>
+                <p>5. Put-in vegetable oil then mix for a few seconds then gradually add cake flour-baking powder mixture. Continue mixing until the texture becomes smooth.
+                    Heat the oven to 350 degrees Fahrenheit
+                    </p>
+                <p>6. Grease the molds using cooking spray then scoop some of the mixture into the mold. Continue doing this process until all the mixture is used-up.
+                    Bake for 13 to 16 minutes or until it passes the toothpick test.
+                    Remove from the oven and let cool.
+                    Serve. Share and enjoy!</p>
+            </div>
+            <div class="recipe">
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <li><P>1 cup  <a href="https://en.wikipedia.org/wiki/Pork_belly">cake flour</a></P></li>
+                    <li><P>1 cups  <a href="https://en.wikipedia.org/wiki/Water"> granulated sugar</a></P></li>
+                    <li><P>1 teaspoon <a href="https://en.wikipedia.org/wiki/Salt"> baking powder</a></P></li>
+                    <li><P>1 teaspoon <a href="https://en.wikipedia.org/wiki/Pepper"> cream tartar</a></P></li>
+                    <li><P>2 teaspoons  <a href="https://en.wikipedia.org/wiki/Cooking_oil">lemon juice</a></P></li>
+                    <li><P>1/2 cup <a href="https://en.wikipedia.org/wiki/Vinegar">vegetable oil</a></P></li>
+                    <li><P>6 <a href="https://en.wikipedia.org/wiki/Egg_yolk">Egg Yolks</a> separated from white</P></li>                   
+                    </ul>                    
+            </div>
+            </div>
+        
+
+
+            <div class ="viewmore-div">
+          <div class="view-more">
+              <a href="browse.html"><p>View More</p></a>  
+          </div>
+    </div>
+
+
+            
+        </div>
+   </div>
+
+   
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="qcu" src="Images/qcu.png">
+          </div>
+          <div class="col">
+            <h3>Address</h3>
+            <p>Batasan Rd, Quezon City, Metro Manila</p>
+            <p>Phone: (02) 8806-3049</p>
+            <p>@ 2023 Quezon City University</p>
+          </div>
+          <div class="col">
+            <h3>OpenHours</h3>
+            <p>Monday - Friday: 8:00 am - 5:00 pm</p>
+            <p>Saturday - Sunday: Closed</p>  
+          </div>
+          <div class="col">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+              <li><a href="https://www.facebook.com/zuck"><img src="Images/facebook.jpg" alt="Facebook"></a></li>
+              <li><a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="Images/twitter.png" alt="Twitter"></a></li>
+              <li><a href="https://www.instagram.com/mina_sr_my/?hl=en"><img src="Images/instagram.png" alt="Instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>

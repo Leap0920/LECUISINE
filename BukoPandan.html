@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Buko Pandan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/logoo.png" type="image/svg+xml">
+    <style>
+       /*NAv bar*/
+       body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Images/browse-b.jpg");
+  height: 100vh; 
+  background-size: cover;
+  position: relative;
+  background-blend-mode: multiply;   
+  padding: 0;  
+  display: flex; 
+  flex-direction: column;
+}
+
+
+.recipeb {
+    text-align: center;
+    display: block;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+    background-color: rgba(39, 38, 38, 0.5); 
+    width: 1100px;
+    border-radius: 20px;
+    
+}
+.bodys h1{
+    font-size: 50px;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 30px;
+    }
+    .section1 {
+    display: flex;
+    justify-content: center; 
+    text-align: justify;
+    margin: auto; 
+}
+
+.section1 img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.section1 p {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+.stars {
+    display: flex;
+    direction: rtl; 
+    font-size: 3em;
+    color: rgb(255, 230, 0);
+    position: absolute;
+    margin-left: -500px;
+    margin-top: 280px;
+}
+
+
+.stars input[type="radio"] {
+    display: none;
+}
+
+.stars label:before {
+    content: "☆";
+    cursor: pointer;
+}
+
+.stars input[type="radio"]:checked ~ label:before {
+    content: "★";
+}
+
+.section2 {
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    align-items: start; 
+}
+
+.section2 p {
+    margin-bottom: 30px; 
+    font-size: 15px;
+}
+.section2 h1{
+    font-size: 25px;
+}
+
+.direction {
+    text-align: justify;
+    margin-left: 110px;
+    margin-right: 150px;
+    margin-bottom: 90px;
+    
+}
+.recipe{
+    text-align: justify;
+    margin-right: 150px;
+    
+
+}
+
+    </style>
+</head>
+<body>
+  <header>
+    <div class="wrapper">
+        <div class="logo">
+            <a href="index.html"> <img src="Images/logoo.png" class="logo"> </a>
+        </div>
+        <ul class="nav-area">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="browse.html">Browse</a></li>
+            <li><a href="chefs.html">Chefs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </header>
+    
+
+   <div class="recipeb">
+        <div class="bodys">
+            <h1> Buko Pandan</h1>
+            <div class="section1"> 
+                <img src="Images/Food-Images/bukoSalad.jpg">
+                <p>Buko Pandan is a Filipino cold dessert made of jelly cubes, young coconut, and sweetened cream infused with pandan or screwpine flavor. Although the above three are the standard ingredients, tapioca pearls or sago, kaong, and nata de coco are also commonly added.
+                    This tropical salad is usually enjoyed as a midday snack or after-meal sweet treat and is often made for holiday parties and other special occasions.</p>
+                <div class="etc">
+                    <div class="stars">
+                        <input type="radio" name="star" id="star1">
+                        <label for="star1"></label>
+                        <input type="radio" name="star" id="star2">
+                        <label for="star2"></label>
+                        <input type="radio" name="star" id="star3">
+                        <label for="star3"></label>
+                        <input type="radio" name="star" id="star4">
+                        <label for="star4"></label>
+                        <input type="radio" name="star" id="star5">
+                        <label for="star5"></label>
+                    </div>
+            </div>
+            
+            </div>
+
+
+            <div class="section2">
+                <div class="direction">
+                <h1>DIRECTIONS</h1>
+                <p>1. In a pot, combine agar-agar and coconut juice and soak for about 30 minutes.</p>
+                <p>2. Bring to a boil over medium heat and cook, stirring regularly, until agar-agar is melted.</p>
+                <p>3. Add sugar and stir to dissolve. Continue to cook for about 10 to 15 minutes or until agar-agar is completely dissolved.</p>
+                <p>4. Add 2 drops of pandan extract and stir to combine.</p>
+                <p>5. Remove from heat and carefully pour into a flat dish. Allow to cool until gulaman is set and hardened. Cut into ½-inch cubes.</p>
+                <p>6. In a large bowl, combine gulaman, young shredded coconut, nata de coco, kaong, table cream, and condensed milk.</p>
+                <p>7. Add about 2 to 3 drops pandan extract and stir to distribute flavor and color.</p>
+                <p>8. Chill for about 1 to 2 hours. Serve cold.</p>
+            </div>
+            <div class="recipe">
+                <h1>INGREDIENTS</h1>
+                <ul>y
+                    <li><P>2 bars (.70 ounce) <a href="https://en.wikipedia.org/wiki/Chicken"> green agar-agar</a>, shredded to very small pieces</P></li>
+                    <li><P>3 cups <a href="https://en.wikipedia.org/wiki/Bay_leaf">coconut juice</a></P></li>
+                    <li><P>1 cup <a href="https://en.wikipedia.org/wiki/Soy_sauce">sugar</a></P></li>
+                    <li><P>4 drops  <a href="https://en.wikipedia.org/wiki/Vinegar#Spirits"> pandan extract</a></P></li>
+                    <li><P>2 cups <a href="https://en.wikipedia.org/wiki/Garlic"> young coconut</a> shredded</P></li>
+                    <li><P>1 bottle (12 ounces) <a href="https://en.wikipedia.org/wiki/Water">Nata de coco</a>, drained</P></li>
+                    <li><P>1 bottle (12 ounces) <a href="https://en.wikipedia.org/wiki/Cooking_oil">Kaong</a>, drained</P></li>
+                    <li><P>1 can (14 ounces) <a href="https://en.wikipedia.org/wiki/Cooking_oil">table cream</a></P></li>
+                    <li><P>1 can (14 ounces) <a href="https://en.wikipedia.org/wiki/Cooking_oil"> sweetened condensed milk</a></P></li>
+                </ul>                    
+            </div>
+            </div>
+        
+
+
+            <div class ="viewmore-div">
+          <div class="view-more">
+              <a href="browse.html"><p>View More</p></a>  
+          </div>
+    </div>
+
+
+            
+        </div>
+   </div>
+
+   
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="qcu" src="Images/qcu.png">
+          </div>
+          <div class="col">
+            <h3>Address</h3>
+            <p>Batasan Rd, Quezon City, Metro Manila</p>
+            <p>Phone: (02) 8806-3049</p>
+            <p>@ 2023 Quezon City University</p>
+          </div>
+          <div class="col">
+            <h3>OpenHours</h3>
+            <p>Monday - Friday: 8:00 am - 5:00 pm</p>
+            <p>Saturday - Sunday: Closed</p>  
+          </div>
+          <div class="col">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+              <li><a href="https://www.facebook.com/zuck"><img src="Images/facebook.jpg" alt="Facebook"></a></li>
+              <li><a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="Images/twitter.png" alt="Twitter"></a></li>
+              <li><a href="https://www.instagram.com/mina_sr_my/?hl=en"><img src="Images/instagram.png" alt="Instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>

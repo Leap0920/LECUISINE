@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>PUTO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/logoo.png" type="image/svg+xml">
+    <style>
+       /*NAv bar*/ /*pacheck kung okay na mga perd ----zaitello*/
+       body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Images/browse-b.jpg");
+  height: 100vh; 
+  background-size: cover;
+  position: relative;
+  background-blend-mode: multiply;   
+  padding: 0;  
+  display: flex; 
+  flex-direction: column;
+}
+
+
+.recipeb {
+    text-align: center;
+    display: block;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+    background-color: rgba(39, 38, 38, 0.5); 
+    width: 1100px;
+    border-radius: 20px;
+    
+}
+.bodys h1{
+    font-size: 50px;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 30px;
+    }
+    .section1 {
+    display: flex;
+    justify-content: center; 
+    text-align: justify;
+    margin: auto; 
+}
+
+.section1 img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.section1 p {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+.stars {
+    display: flex;
+    direction: rtl; 
+    font-size: 3em;
+    color: rgb(255, 230, 0);
+    position: absolute;
+    margin-left: -500px;
+    margin-top: 280px;
+}
+
+
+.stars input[type="radio"] {
+    display: none;
+}
+
+.stars label:before {
+    content: "☆";
+    cursor: pointer;
+}
+
+.stars input[type="radio"]:checked ~ label:before {
+    content: "★";
+}
+
+.section2 {
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    align-items: start; 
+}
+
+.section2 p {
+    margin-bottom: 30px; 
+    font-size: 15px;
+}
+.section2 h1{
+    font-size: 25px;
+}
+
+.direction {
+    text-align: justify;
+    margin-left: 110px;
+    margin-right: 150px;
+    margin-bottom: 90px;
+    
+}
+.recipe{
+    text-align: justify;
+    margin-right: 150px;
+    
+
+}
+
+    </style>
+</head>
+<body>
+  <header>
+    <div class="wrapper">
+        <div class="logo">
+            <a href="index.html"> <img src="Images/logoo.png" class="logo"> </a>
+        </div>
+        <ul class="nav-area">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="browse.html">Browse</a></li>
+            <li><a href="chefs.html">Chefs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </header>
+    
+
+   <div class="recipeb">
+        <div class="bodys">
+            <h1>PUTO</h1>
+            <div class="section1"> 
+                <img src="Images/Food-Images/puto.jpg">
+                <p>Puto is a traditional Filipino steamed rice cake that is soft, fluffy, and slightly sweet. It is a popular snack or merienda and is often served during special occasions and celebrations. Puto can come in various colors and flavors, and it is typically enjoyed with savory or sweet accompaniments.</p>
+                <div class="etc">
+                    <div class="stars">
+                        <input type="radio" name="star" id="star1">
+                        <label for="star1"></label>
+                        <input type="radio" name="star" id="star2">
+                        <label for="star2"></label>
+                        <input type="radio" name="star" id="star3">
+                        <label for="star3"></label>
+                        <input type="radio" name="star" id="star4">
+                        <label for="star4"></label>
+                        <input type="radio" name="star" id="star5">
+                        <label for="star5"></label>
+                    </div>
+            </div>
+            
+            </div>
+
+
+            <div class="section2">
+                <div class="direction">
+                <h1>DIRECTIONS</h1>
+                <p>1. In a large mixing bowl, combine rice flour, all-purpose flour, baking powder, and sugar. Mix well.</p>
+                <p>2. Pour in water and coconut milk into the dry ingredients. Mix until the batter is smooth and well combined.<br/> Add vanilla extract if desired for extra flavor.</p>
+                <p>3. Preheat your steamer. If you don't have a steamer, you can use a large pot with a steaming rack or a makeshift steamer setup.</p>
+                <p>4. Lightly grease your puto molds or small individual cups with cooking oil or butter.<br/> Pour the batter into the molds, filling each one about 2/3 full.</p>
+                <p>5. Arrange the filled molds in the steamer, leaving some space between them to allow for expansion.<br/> Steam the puto over medium heat for about 15-20 minutes or until a toothpick inserted into the center comes out clean.</p>
+                <p>6. While the puto is still hot, you can add toppings like grated cheese or salted egg slices on top.</p>
+                <p>7. Allow the puto to cool slightly before removing them from the molds.<br/> Serve the puto warm or at room temperature. They are delicious on their own or paired with savory dishes like dinuguan (pork blood stew).</p>
+            </div>
+            <div class="recipe">
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <li><P>2 cups <a href="https://en.wikipedia.org/wiki/Rice_flour">Rice Flour</a></P></li>
+                    <li><P>1 cup <a href="https://en.wikipedia.org/wiki/Flour">All-Purpose Flour</a></P></li>
+                    <li><P>2 1/4 teaspoon <a href="https://en.wikipedia.org/wiki/Baking_powder">Baking Powder</a></P></li>
+                    <li><P>1 1/2 cups <a href="https://en.wikipedia.org/wiki/Water">Water</a></P></li>
+                    <li><P>1 1/2 cups <a href="https://en.wikipedia.org/wiki/Coconut_milk">Coconut Milk</a></P></li>
+                    <li><P>1 teaspoon <a href="https://en.wikipedia.org/wiki/Vanilla_extract">Vanilla Extract</a>(optional)</P></li>
+                    <li><P>1 1/2 cups <a href="https://en.wikipedia.org/wiki/Sugar">Sugar</a></P></li>
+                    <li><P> <a href="https://en.wikipedia.org/wiki/Grated_cheese">Grated Cheese</a> OR</P></li>
+                    <li><P> <a href="https://en.wikipedia.org/wiki/Salted_duck_egg">Salted Egg</a>slice for toppings</P></li>
+                    </ul>                    
+            </div>
+            </div>
+        
+
+
+            <div class ="viewmore-div">
+          <div class="view-more">
+              <a href="browse.html"><p>View More</p></a>  
+          </div>
+    </div>
+
+
+            
+        </div>
+   </div>
+
+   
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="qcu" src="Images/qcu.png">
+          </div>
+          <div class="col">
+            <h3>Address</h3>
+            <p>Batasan Rd, Quezon City, Metro Manila</p>
+            <p>Phone: (02) 8806-3049</p>
+            <p>@ 2023 Quezon City University</p>
+          </div>
+          <div class="col">
+            <h3>OpenHours</h3>
+            <p>Monday - Friday: 8:00 am - 5:00 pm</p>
+            <p>Saturday - Sunday: Closed</p>  
+          </div>
+          <div class="col">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+              <li><a href="https://www.facebook.com/zuck"><img src="Images/facebook.jpg" alt="Facebook"></a></li>
+              <li><a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="Images/twitter.png" alt="Twitter"></a></li>
+              <li><a href="https://www.instagram.com/mina_sr_my/?hl=en"><img src="Images/instagram.png" alt="Instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>

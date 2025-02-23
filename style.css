@@ -1,0 +1,403 @@
+/* WALANG GAGALAW NITO */  
+/* Home page */  
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  body{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+  }
+  a{
+    text-decoration:none;
+  }
+  .wrapper {
+    width: 1170px;
+    margin: auto;
+  }
+  header {
+    
+    height: 700px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+  
+  }
+  .nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+  }
+  .nav-area li {
+    display: inline-block;
+  }
+  .nav-area li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppine;
+    font-size: 16px;
+  }
+  .nav-area li a:hover {
+    background: #fff;
+    color: #333;
+  }
+  .logo img {
+    width: 100px;
+    float: left;
+    height: auto;
+  }
+  .welcome-text {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .welcome-text h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+  }
+  
+  .welcome-text a {
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+  }
+  
+  .welcome-text a:hover {
+    background: #fff;
+    color: #333;
+  }
+  
+  #image-track>.image {
+    width: 40vmin; 
+    height: 56vmin;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  /*  end of Home page code */
+  
+  
+  /* Main css code for the div latest */
+  .latest {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Images/about-bg.jpg");
+    -webkit-background-size: cover;
+    height: auto;
+    min-height: 100em;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-blend-mode: multiply;
+  }
+  /*end of latest code*/
+  
+  /* Top picks */
+  .Tpicks {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .foodList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .foodList img {
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 2px;
+  }
+  
+  .hola {
+    position: relative; 
+    background-size: contain;
+    background-color: rgba(58, 58, 58, 0.6);
+    height: 218px;
+    width: 218px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-clip: border-box;
+  }
+  
+  
+  .hola-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 9%;
+  }
+  
+  .hola img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 180px;
+    max-height: 180px;
+    margin-top: 6%;
+    border-radius: 10px;
+  }
+  
+  .hola p {
+    color: white;
+    top: 5px;
+    text-align: center;
+  }
+  
+  .texxxt {
+    position: relative;
+    margin-top: 5%;
+    
+  }
+  
+  /*  end of Top picks code  */
+  
+  
+  /* Latest Ingrediants */
+  .Latest-Ing {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .Latest-Ing img{
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 2px;
+  }
+  .Latest-Ing-Textx h1 {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    right: 0;
+    margin-top: 5%;
+  }
+  .Latest-Ing-Vm {
+    color: white;
+    float: right;
+    margin-right: 10px;
+    margin-top: 50%;
+  }
+  .adios-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 9%;
+  }
+  .adios {
+    background-size: contain;
+    background-color: rgba(58, 58, 58, 0.6);
+    height: 218px;
+    width: 218px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-clip: border-box;
+    align-self: flex-end;
+  }
+  .adios img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 180px;
+    max-height: 180px;
+    margin-top: 6%;
+    border-radius: 10px;
+    margin-bottom: 3px;
+  }
+  .adios p {
+    color: white;
+    top: 5px;
+    text-align: center;
+  }
+  /*End of the Latest ing code*/
+  
+  /*Row two lines*/
+  .rowTwo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -1%;
+  }
+  .rowTwo img{
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 2px;
+  }
+  .Kunichiwa {
+    background-size: contain;
+    background-color: rgba(58, 58, 58, 0.6);
+    height: 218px;
+    width: 218px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-clip: border-box;
+    align-self: flex-end;
+  
+  }
+  .Kunichiwa img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 180px;
+    max-height: 180px;
+    margin-top: 6%;
+    border-radius: 10px;
+    margin-bottom: 3px;
+  }
+  /* already fixed */
+  .Kunichiwa p {
+    color: white;
+    top: 5px;
+    text-align: center;
+  }
+  /*End of the rowTwo code*/
+  
+  /*View more CSS*/
+  .viewmore-div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+  }
+  
+  
+  .view-more p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
+    background-color: rgba(28, 25, 25, 0.5);
+    height: 60px;
+    width: 200px; 
+    border-radius: 10px;
+  }
+  .view-more p:hover {
+    background: #fff;
+    color: #333;
+  }
+  /*End of view more css*/
+  
+  /*Walang mangengealam sa line 1 to 317*/
+  
+  footer{ 
+    background-color: black; 
+    color: white; 
+    margin: 0; 
+    padding: 0; 
+    padding-top: 10px; 
+    padding-bottom: 1%;
+    margin-top: auto;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+  }
+  
+  .row{ 
+    display: flex; 
+    padding: 0; 
+    text-align: center;
+    align-items: center;
+  
+  }
+  
+  .col{ 
+    width: 25%; 
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    
+  }
+  
+  
+  footer h3{ 
+    font-size: 18px; 
+    margin: 10px 0; 
+  }
+  
+  footer p{ 
+    font-size: 14px; 
+    margin: 5px 0; 
+  }
+  
+  footer ul { 
+    display: flex; 
+    margin: 0; 
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  footer li { 
+    margin: 5px; 
+    padding: 0; 
+    width: 32px; 
+    height: 32px; 
+    list-style: none;
+  }
+  
+  footer img{ 
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+  }
+  .qcu{
+    height: 50%;
+    width: 50%;
+  }
+  .desserts-h1{
+    text-align: center;
+    color:#fff;
+    padding-bottom: 2%;
+  }
+  
+
+  /*walang idadagdag at ibabawas dito*/

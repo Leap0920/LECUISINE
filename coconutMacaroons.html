@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>ADOBONG MANOK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/logoo.png" type="image/svg+xml">
+    <style>
+       /*NAv bar*/
+       body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Images/browse-b.jpg");
+  height: 100vh; 
+  background-size: cover;
+  position: relative;
+  background-blend-mode: multiply;   
+  padding: 0;  
+  display: flex; 
+  flex-direction: column;
+}
+
+
+.recipeb {
+    text-align: center;
+    display: block;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+    background-color: rgba(39, 38, 38, 0.5); 
+    width: 1100px;
+    border-radius: 20px;
+    
+}
+.bodys h1{
+    font-size: 50px;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 30px;
+    }
+    .section1 {
+    display: flex;
+    justify-content: center; 
+    text-align: justify;
+    margin: auto; 
+}
+
+.section1 img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.section1 p {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+.stars {
+    display: flex;
+    direction: rtl; 
+    font-size: 3em;
+    color: rgb(255, 230, 0);
+    position: absolute;
+    margin-left: -500px;
+    margin-top: 280px;
+}
+
+
+.stars input[type="radio"] {
+    display: none;
+}
+
+.stars label:before {
+    content: "☆";
+    cursor: pointer;
+}
+
+.stars input[type="radio"]:checked ~ label:before {
+    content: "★";
+}
+
+.section2 {
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    align-items: start; 
+}
+
+.section2 p {
+    margin-bottom: 30px; 
+    font-size: 15px;
+}
+.section2 h1{
+    font-size: 25px;
+}
+
+.direction {
+    text-align: justify;
+    margin-left: 110px;
+    margin-right: 150px;
+    margin-bottom: 90px;
+    
+}
+.recipe{
+    text-align: justify;
+    margin-right: 150px;
+    
+
+}
+    </style>
+</head>
+<body>
+  <header>
+    <div class="wrapper">
+        <div class="logo">
+            <a href="index.html"> <img src="Images/logoo.png" class="logo"> </a>
+        </div>
+        <ul class="nav-area">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="browse.html">Browse</a></li>
+            <li><a href="chefs.html">Chefs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </header>
+    
+
+   <div class="recipeb">
+        <div class="bodys">
+            <h1> COCONUT MACAROONS</h1>
+            <div class="section1"> 
+                <img src="Images/Food-Images/coconutMacaroons.jpg">
+                <p>Coconut macaroons are delightful, bite-sized treats known for their irresistible combination of chewy texture and sweet, coconut flavor. These confections typically consist of shredded coconut, sweetened condensed milk, and egg whites, creating a moist and dense consistency. Baked to golden perfection, coconut macaroons often feature a crispy exterior that gives way to a soft, gooey center. Their simplicity in ingredients and preparation makes them a popular choice for home bakers seeking a quick and delicious dessert. Whether enjoyed plain or dipped in chocolate, coconut macaroons are a timeless and satisfying indulgence.</p>
+                <div class="etc">
+                    <div class="stars">
+                        <input type="radio" name="star" id="star1">
+                        <label for="star1"></label>
+                        <input type="radio" name="star" id="star2">
+                        <label for="star2"></label>
+                        <input type="radio" name="star" id="star3">
+                        <label for="star3"></label>
+                        <input type="radio" name="star" id="star4">
+                        <label for="star4"></label>
+                        <input type="radio" name="star" id="star5">
+                        <label for="star5"></label>
+                    </div>
+                    
+            </div>
+            
+            </div>
+
+
+            <div class="section2">
+                <div class="direction">
+                <h1>DIRECTIONS</h1>
+                <p>1. Preheat the oven to 325°F (163°C). Line a baking sheet with parchment paper.</p>
+                <p>2. In a large bowl, combine the shredded coconut, sweetened condensed milk, and vanilla extract. Mix well.</p>
+                <p>3. In a separate bowl, beat the egg whites with salt until stiff peaks form.</p>
+                <p>4. Gently fold the beaten egg whites into the coconut mixture until well combined.</p>
+                <p>5. Using a spoon or cookie scoop, drop rounded mounds of the mixture onto the prepared baking sheet, leaving space between each macaroon.</p>
+                <p>6. Bake in the preheated oven for 15-20 minutes or until the edges of the macaroons are golden brown.</p>
+                <p>7. Allow the macaroons to cool on the baking sheet for a few minutes, then transfer them to a wire rack to cool completely.</p>
+                <p>8. Optional: Drizzle melted chocolate over the cooled macaroons for added flavor.</p>
+</div>
+            <div class="recipe">
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <li><p>3 cups <a href="https://en.wikipedia.org/wiki/Shredded_coconut">Shredded Coconut</a></p></li>
+                    <li><p>3/4 cup <a href="https://en.wikipedia.org/wiki/Sweetened_condensed_milk">Sweetened Condensed Milk</a></p></li>
+                    <li><p>1 teaspoon <a href="https://en.wikipedia.org/wiki/Vanilla_extract">Vanilla Extract</a></p></li>
+                    <li><p>2 large <a href="https://en.wikipedia.org/wiki/Egg_white">Egg Whites</a>, lightly beaten</p></li>
+                    <li><p>1/4 teaspoon <a href="https://en.wikipedia.org/wiki/Salt">Salt</a></p></li>
+                </ul>             
+            </div>
+            </div>
+            
+
+
+            <div class ="viewmore-div">
+          <div class="view-more">
+              <a href="browse.html"><p>View More</p></a>  
+          </div>
+    </div>      
+        </div>
+   </div>
+
+   
+
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="qcu" src="Images/qcu.png">
+          </div>
+          <div class="col">
+            <h3>Address</h3>
+            <p>Batasan Rd, Quezon City, Metro Manila</p>
+            <p>Phone: (02) 8806-3049</p>
+            <p>@ 2023 Quezon City University</p>
+          </div>
+          <div class="col">
+            <h3>OpenHours</h3>
+            <p>Monday - Friday: 8:00 am - 5:00 pm</p>
+            <p>Saturday - Sunday: Closed</p>  
+          </div>
+          <div class="col">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+              <li><a href="https://www.facebook.com/zuck"><img src="Images/facebook.jpg" alt="Facebook"></a></li>
+              <li><a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="Images/twitter.png" alt="Twitter"></a></li>
+              <li><a href="https://www.instagram.com/mina_sr_my/?hl=en"><img src="Images/instagram.png" alt="Instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>

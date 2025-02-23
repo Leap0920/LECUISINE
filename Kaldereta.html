@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>KALDERETA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/logoo.png" type="image/svg+xml">
+    <style>
+       /*NAv bar*/ /*pacheck kung okay na mga perd ----zaitello*/
+       body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("Images/browse-b.jpg");
+  height: 100vh; 
+  background-size: cover;
+  position: relative;
+  background-blend-mode: multiply;   
+  padding: 0;  
+  display: flex; 
+  flex-direction: column;
+}
+
+
+.recipeb {
+    text-align: center;
+    display: block;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+    background-color: rgba(39, 38, 38, 0.5); 
+    width: 1100px;
+    border-radius: 20px;
+    
+}
+.bodys h1{
+    font-size: 50px;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 30px;
+    }
+    .section1 {
+    display: flex;
+    justify-content: center; 
+    text-align: justify;
+    margin: auto; 
+}
+
+.section1 img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.section1 p {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+.stars {
+    display: flex;
+    direction: rtl; 
+    font-size: 3em;
+    color: rgb(255, 230, 0);
+    position: absolute;
+    margin-left: -500px;
+    margin-top: 280px;
+}
+
+
+.stars input[type="radio"] {
+    display: none;
+}
+
+.stars label:before {
+    content: "☆";
+    cursor: pointer;
+}
+
+.stars input[type="radio"]:checked ~ label:before {
+    content: "★";
+}
+
+.section2 {
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    align-items: start; 
+}
+
+.section2 p {
+    margin-bottom: 30px; 
+    font-size: 15px;
+}
+.section2 h1{
+    font-size: 25px;
+}
+
+.direction {
+    text-align: justify;
+    margin-left: 110px;
+    margin-right: 150px;
+    margin-bottom: 90px;
+    
+}
+.recipe{
+    text-align: justify;
+    margin-right: 150px;
+    
+
+}
+
+    </style>
+</head>
+<body>
+  <header>
+    <div class="wrapper">
+        <div class="logo">
+            <a href="index.html"> <img src="Images/logoo.png" class="logo"> </a>
+        </div>
+        <ul class="nav-area">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="browse.html">Browse</a></li>
+            <li><a href="chefs.html">Chefs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </header>
+    
+
+   <div class="recipeb">
+        <div class="bodys">
+            <h1> KALDERETA</h1>
+            <div class="section1"> 
+                <img src="Images/Food-Images/kaldereta.jpg">
+                <p>Kaldereta is a rich and flavorful Filipino stew known for its tender meat, often beef or goat, cooked in a savory tomato-based sauce. It typically includes potatoes, carrots, bell peppers, and sometimes olives, creating a hearty and delicious dish with a perfect blend of sweet and savory flavors.</p>
+                <div class="etc">
+                    <div class="stars">
+                        <input type="radio" name="star" id="star1">
+                        <label for="star1"></label>
+                        <input type="radio" name="star" id="star2">
+                        <label for="star2"></label>
+                        <input type="radio" name="star" id="star3">
+                        <label for="star3"></label>
+                        <input type="radio" name="star" id="star4">
+                        <label for="star4"></label>
+                        <input type="radio" name="star" id="star5">
+                        <label for="star5"></label>
+                    </div>
+            </div>
+            
+            </div>
+
+
+            <div class="section2">
+                <div class="direction">
+                <h1>DIRECTIONS</h1>
+                <p>1. In a large pot, heat cooking oil and sauté onions and garlic until aromatic.</p>
+                <p>2. Add the beef (or goat) chunks and brown them on all sides.                </p>
+                <p>3. Pour in the tomato sauce, liver spread, and beef broth.<br>Bring it to a boil, then reduce heat and simmer until the meat is tender.<br>This may take 1.5 to 2 hours, depending on the meat used.</p>
+                <p>4. Once the meat is tender, add potatoes, carrots, and bell peppers.<br>Continue simmering until the vegetables are cooked.</p>
+                <p>5. Add olives if desired, then season with salt and pepper to taste.</p>
+                <p>6. Stir in the grated cheese and let it melt into the stew, creating a creamy texture.</p>
+                <p>7. Adjust the seasoning if needed and simmer for a few more minutes until everything is well-incorporated.</p>
+                <p>8. Serve hot with steamed rice.</P>
+            </div>
+            <div class="recipe">
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <li><P>1.5 kg <a href="https://en.wikipedia.org/wiki/Beef">Beef</a></P></li>
+                    <li><P>3 tablespoon <a href="https://en.wikipedia.org/wiki/Cooking_oil">Cooking Oil</a></P></li>
+                    <li><P>1 finely chopped <a href="https://en.wikipedia.org/wiki/Onion">Onion</a></P></li>
+                    <li><P>1 cup <a href="https://en.wikipedia.org/wiki/Tomato_sauce">Tomato Sauce</a></P></li>
+                    <li><P>1 cup <a href="https://en.wikipedia.org/wiki/Liver_spread">Liver Spread</a></P></li>
+                    <li><P>1 cup <a href="https://en.wikipedia.org/wiki/Green_olive">Green Olives</a></P></li>
+                    <li><P>4 cloves minced <a href="https://en.wikipedia.org/wiki/Garlic">Garlic</a></P></li>
+                    <li><P>1 cup <a href="https://en.wikipedia.org/wiki/Grated_cheese">Grated Cheese</a></P></li>
+                    <li><P>2 large peeled and slice <a href="https://en.wikipedia.org/wiki/Potato">Potatoes</a></P></li>
+                    <li><P>2 large peeled and slice <a href="https://en.wikipedia.org/wiki/Carrot">Carrots</a></P></li>
+                    <li><P>2 sliced <a href="https://en.wikipedia.org/wiki/Bell_pepper">Red Bell Peppers</a></P></li>
+                    <li><P>2 sliced <a href="https://en.wikipedia.org/wiki/Bell_pepper">Green Bell Peppers</a></P></li>
+                    <li><P>2 cups <a href="https://stoneypointfarmmarket.com/what-is-beef-broth-and-how-is-it-used/#:~:text=Beef%20broth%20is%20a%20liquid,often%20confused%20with%20beef%20stock.">Beef Broth</a></P></li>
+                    </ul>                    
+            </div>
+            </div>
+        
+
+
+            <div class ="viewmore-div">
+          <div class="view-more">
+              <a href="browse.html"><p>View More</p></a>  
+          </div>
+    </div>
+
+
+            
+        </div>
+   </div>
+
+   
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="qcu" src="Images/qcu.png">
+          </div>
+          <div class="col">
+            <h3>Address</h3>
+            <p>Batasan Rd, Quezon City, Metro Manila</p>
+            <p>Phone: (02) 8806-3049</p>
+            <p>@ 2023 Quezon City University</p>
+          </div>
+          <div class="col">
+            <h3>OpenHours</h3>
+            <p>Monday - Friday: 8:00 am - 5:00 pm</p>
+            <p>Saturday - Sunday: Closed</p>  
+          </div>
+          <div class="col">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+              <li><a href="https://www.facebook.com/zuck"><img src="Images/facebook.jpg" alt="Facebook"></a></li>
+              <li><a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="Images/twitter.png" alt="Twitter"></a></li>
+              <li><a href="https://www.instagram.com/mina_sr_my/?hl=en"><img src="Images/instagram.png" alt="Instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>
